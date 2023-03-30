@@ -1,0 +1,58 @@
+{
+  "name": "react-native-stripe-create-token",
+  "version": "0.1.0",
+  "description": "A small React Native library for Stripe Rest API",
+  "main": "src/Stripe.js",
+  "scripts": {
+    "lint": "eslint .",
+    "flow": "flow",
+    "test": "jest --verbose",
+    "check": "npm run lint && npm run flow && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvynkim/react-native-stripe-create-token.git"
+  },
+  "keywords": [
+    "react-native",
+    "Stripe"
+  ],
+  "author": "FastStartup Developers <developers@faststartup.io> (http://faststartup.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melvynkim/react-native-stripe-create-token/issues"
+  },
+  "homepage": "https://github.com/melvynkim/react-native-stripe-create-token#readme",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "packager/react-packager/src/Activity/"
+    ],
+    "testFileExtensions": [
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "promise",
+      "source-map"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "6.9.1",
+    "babel-eslint": "6.0.4",
+    "babel-jest": "12.1.0",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "2.13.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.8.1",
+    "eslint-plugin-jsx-a11y": "1.5.3",
+    "eslint-plugin-react": "5.2.2",
+    "flow-bin": "0.25.0",
+    "jest-cli": "12.1.1"
+  },
+  "peerDependencies": {
+    "babel-polyfill": "6.9.1",
+    "react": "^18.1.0",
+    "react-native": "^0.70.6"
+  }
+}
